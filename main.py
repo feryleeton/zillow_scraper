@@ -1,0 +1,6 @@
+from zillow_scraper.scraper import ZillowScraper
+
+
+if __name__ == '__main__':
+    zw_scraper = ZillowScraper()
+    zw_scraper.proceed_search_link("https://www.zillow.com/homes/for_sale/3-_beds/2.0-_baths/?searchQueryState=%7B%22usersSearchTerm%22%3A%22Sarasota%2C%20FL%22%2C%22mapBounds%22%3A%7B%22north%22%3A27.588874585083452%2C%22east%22%3A-82.2597891093304%2C%22south%22%3A27.001875305822836%2C%22west%22%3A-82.8475576640179%7D%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22days%22%7D%2C%22ah%22%3A%7B%22value%22%3Atrue%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22apco%22%3A%7B%22value%22%3Afalse%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%2255plus%22%3A%7B%22value%22%3A%22e%22%7D%2C%22ac%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Afalse%2C%22isMapVisible%22%3Atrue%2C%22customRegionId%22%3A%2284ba662a81X1-CRnqjy5d8mm3cu_xbl9v%22%2C%22pagination%22%3A%7B%7D%7D")
